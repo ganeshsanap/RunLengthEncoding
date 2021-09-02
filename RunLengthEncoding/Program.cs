@@ -6,10 +6,10 @@ namespace RunLengthEncoding
     {
         static void Main(string[] args)
         {
-            Console.WriteLine( PrintRLE("122333444455555"));
+            Console.WriteLine(GetRLE("aaawwgbbbbbiihhh"));
         }
 
-        static string PrintRLE(string inputString)
+        static string GetRLE(string inputString)
         {
             try
             {
